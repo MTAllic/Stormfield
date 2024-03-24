@@ -1,8 +1,0 @@
-source;share/stormfield/hook/cmake_prefix_path.ps1
-source;share/stormfield/hook/cmake_prefix_path.dsv
-source;share/stormfield/hook/cmake_prefix_path.sh
-source;share/stormfield/local_setup.bash
-source;share/stormfield/local_setup.dsv
-source;share/stormfield/local_setup.ps1
-source;share/stormfield/local_setup.sh
-source;share/stormfield/local_setup.zsh
