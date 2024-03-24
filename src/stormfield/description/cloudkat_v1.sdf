@@ -1,0 +1,42 @@
+<sdf version='1.7'>
+  <model name='robot'>
+    <joint name='base_joint' type='fixed'>
+      <pose relative_to='__model__'>1.5 1 0 0 -0 0</pose>
+      <parent>world</parent>
+      <child>slider_link</child>
+    </joint>
+    <link name='slider_link'>
+      <pose relative_to='base_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0.075 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.00354167</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0113542</iyy>
+          <iyz>0</iyz>
+          <izz>0.0130208</izz>
+        </inertia>
+      </inertial>
+      <collision name='slider_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://stormfield/description/meshes/stl/Frame_1000.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='slider_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://stormfield/description/meshes/stl/Frame_1000.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
