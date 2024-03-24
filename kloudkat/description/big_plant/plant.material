@@ -1,0 +1,14 @@
+material plant/Diffuse
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+			texture tex_p.jpg
+			}
+		}
+	}
+}
