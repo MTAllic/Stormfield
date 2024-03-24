@@ -1,0 +1,8 @@
+source;share/kloudkat/hook/cmake_prefix_path.ps1
+source;share/kloudkat/hook/cmake_prefix_path.dsv
+source;share/kloudkat/hook/cmake_prefix_path.sh
+source;share/kloudkat/local_setup.bash
+source;share/kloudkat/local_setup.dsv
+source;share/kloudkat/local_setup.ps1
+source;share/kloudkat/local_setup.sh
+source;share/kloudkat/local_setup.zsh
